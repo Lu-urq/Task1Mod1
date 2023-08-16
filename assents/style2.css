@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header {
+    text-align: left;
+    padding-top: 10px;
+}
+
+h1 {
+    margin: 0%;
+}
+
+nav {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+nav a {
+    background-color: rgb(122, 130, 231);
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 15px;
+}
+
+nav a.active {
+    background-color: #28a745;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.upcoming-events {
+    text-align: center;
+    padding: 0 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.upcoming-events h2 {
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    width: 15%;
+    height: 10%;
+    margin-right: 20px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.info p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+span {
+    color:blue;
+    text-decoration: underline 2px black;
+  }

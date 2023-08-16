@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  position: relative;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  z-index: 2;
+  /* Para que el encabezado esté sobre los otros elementos */
+}
+
+header h1 {
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  margin-left: 2vw;
+  position: absolute;
+  top: 1vh;
+  font-size: 5vw;
+  font-weight: lighter;
+}
+
+nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* Cambio la posición a la izquierda */
+  transform: translateY(-50%);
+}
+
+nav {
+  margin-top: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  padding: 5px 20px;
+  margin: 30% 0;
+  color: black;
+  text-decoration: none;
+
+  size: 20px;
+}
+
+.active {
+  color: blue;
+  text-decoration: underline;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  /* Para que el banner esté detrás del encabezado */
+}
+
+h2 {
+  margin: 0;
+}
+
+.upcoming-events {
+  position: relative;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  /* Centra el div horizontalmente */
+  z-index: 2;
+  /* Para que el div esté sobre el banner */
+}
+
+.main-content {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  z-index: 2;
+}
+
+.logo {
+  width: 15%;
+  position: absolute;
+  right: 8%;
+  transform: translateY(-70%);
+  z-index: 3;
+  /* Para que el logo esté sobre los otros elementos */
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.info p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+span {
+  color:blue;
+  text-decoration: underline 2px black;
+}
