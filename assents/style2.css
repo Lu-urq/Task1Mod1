@@ -76,6 +76,16 @@ nav a.active {
 }
 
 span {
-    color:blue;
+    color: blue;
     text-decoration: underline 2px black;
-  }
+}
+
+.link-hover {
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+.link-hover:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

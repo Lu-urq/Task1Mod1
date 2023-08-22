@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.center {
+    margin: 0;
+    text-align: center;
+}
+
+.rule-section {
+    margin: 2rem;
+}
+
+.rule-section p.indent {
+    text-indent: 1.5rem;
+}
+
+.field-regulations p {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.field-regulations strong {
+    display: inline-block;
+    width: 200px;
+    /* Adjust this value as needed */
+}
+
+.numbered-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.alphabet-list {
+    list-style-type: lower-alpha;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.circle-list {
+    list-style-type: circle;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+table {
+    text-align: justify;
+    margin: 3rem 5rem;
+}
+
+
+th, td {
+    padding: 10px 50px;
+}
+
+.right-align>td {
+    padding-right: 10px;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.contact-column {
+    width: 50%;
+}
+
+.right-align {
+    text-align: right;
+}
