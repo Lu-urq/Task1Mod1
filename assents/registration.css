@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  border-style: none;
+}
+
+form {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+legend {
+  font-weight: bold;
+}
+
+fieldset{
+  margin-bottom: 2rem;
+}
+fieldset> input {
+  margin-bottom: 10px;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  margin-right: 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="checkbox"] {
+  /* Input ocupa el espacio disponible restante  */
+  padding: 5px;
+  border: 0;
+  border-bottom: 1px solid #000;
+
+}
+
+.form-row input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.fin {
+  display: block;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fin input[type="text"] {
+  padding: 5px;
+  border: 0;
+  border-bottom: 1px solid #000;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+.form-row> .lala {
+  width: 15rem;
+  padding-top: 2rem;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+tr, td {
+  padding: 5px 30px;
+}
+
+button {
+  border-style: solid;
+  background-color: #7d6a6a;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit {
+  text-align: center;
+}
